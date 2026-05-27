@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Shopify - Crea tu tienda online en 5 minutos</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-shop text-indigo-600 text-2xl"></i>
+                    <span class="text-xl font-bold tracking-tight text-slate-900">Mini<span class="text-indigo-600">Shopify</span></span>
+                </div>
+                <div>
+                    <a href="#registro" class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-xl font-medium transition">Empezar gratis</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="relative overflow-hidden py-16 text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-indigo-50 text-indigo-700 mb-6">Pensado para pequeños negocios</span>
+            <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">Crea tu tienda online en <span class="text-indigo-600">5 minutos</span></h1>
+            <p class="mt-4 text-base text-slate-600 max-w-2xl mx-auto">Sube tus productos, recibe pagos locales y controla tu inventario desde una plataforma simple y bonita.</p>
+            <div class="mt-8 flex flex-col gap-3 px-4">
+                <a href="#registro" class="bg-indigo-600 text-white px-6 py-3.5 rounded-xl font-semibold text-md shadow-md">Crear mi tienda ahora</a>
+            </div>
+        </div>
+    </header>
+    <section id="caracteristicas" class="py-12 bg-white border-y border-slate-200">
+        <div class="px-6 space-y-8">
+            <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/50">
+                <i class="fa-solid fa-box-open text-indigo-600 text-xl mb-3"></i>
+                <h3 class="text-lg font-bold text-slate-900 mb-1">Gestión de Productos</h3>
+                <p class="text-sm text-slate-600">Sube fotos, descripciones y precios desde tu celular en segundos.</p>
+            </div>
+            <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/50">
+                <i class="fa-solid fa-credit-card text-indigo-600 text-xl mb-3"></i>
+                <h3 class="text-lg font-bold text-slate-900 mb-1">Pagos Efectivos</h3>
+                <p class="text-sm text-slate-600">Recibe transferencias directas o billeteras digitales locales.</p>
+            </div>
+        </div>
+    </section>
+    <section id="precios" class="py-12 px-6 space-y-6">
+        <div class="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm">
+            <h3 class="font-bold text-slate-900">Plan Emprendedor</h3>
+            <div class="mt-2 flex items-baseline gap-1"><span class="text-3xl font-extrabold">$5</span><span class="text-slate-500 text-xs">/ mes</span></div>
+            <a href="#registro" class="mt-6 block text-center bg-slate-900 text-white py-2.5 rounded-xl text-sm font-medium">Comenzar</a>
+        </div>
+        <div class="bg-white border-2 border-indigo-600 p-6 rounded-2xl shadow-md">
+            <h3 class="font-bold text-slate-900">Plan Negocio Pro</h3>
+            <div class="mt-2 flex items-baseline gap-1"><span class="text-3xl font-extrabold">$20</span><span class="text-slate-500 text-xs">/ mes</span></div>
+            <a href="#registro" class="mt-6 block text-center bg-indigo-600 text-white py-2.5 rounded-xl text-sm font-medium">Llevar mi negocio al límite</a>
+        </div>
+    </section>
+    <section id="registro" class="py-16 bg-indigo-900 text-white text-center px-6">
+        <h2 class="text-2xl font-bold mb-2">¿Listo para transformar tu negocio?</h2>
+        <p class="text-indigo-200 text-sm mb-6">Asegura un 50% de descuento en tu primer año.</p>
+        <form onsubmit="event.preventDefault(); alert('¡Gracias! Te avisaremos muy pronto.');" class="bg-white p-1.5 rounded-xl flex flex-col gap-2">
+            <input type="email" required placeholder="Tu correo electrónico" class="px-4 py-2.5 rounded-lg text-slate-900 focus:outline-none text-sm font-medium">
+            <button type="submit" class="bg-indigo-600 text-white py-2.5 rounded-lg font-semibold text-sm">Asegurar mi lugar</button>
+        </form>
+    </section>
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-xs">
+        <p>&copy; 2026 MiniShopify. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
